@@ -5,9 +5,11 @@
   --main-color: #ff89c2;
   --main-bg-color: #fff3e9;
   --second-bg-color: #ffcbda;
+  --third-bg-color: #f4c3bc;
   --main-text-color: #ffffff;
   --second-text-color: #000000;
   --third-text-color: #89B176;
+  --fours-text-color: #B5A0EF;
 
   --gb-first-icon-url: url("../../public/specials_conditions_firstIcon.png");
   --gb-second-icon-url: url("../../public/specials_conditions_secondIcon.png");
@@ -46,3 +48,23 @@ a {
 .d-flex{
   display: flex;
 }
+
+
+.slider {
+  display: flex;
+  cursor: grab;
+}
+
+
+
+// .slide {
+//   min-width: 300px; /* ширина одного слайда */
+//   margin-right: 20px;
+// }
+
+// .slide img {
+//   width: 100%;
+//   height: auto;
+//   border-radius: 10px;
+//   pointer-events: none;
+// }

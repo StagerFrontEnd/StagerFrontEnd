@@ -1,0 +1,37 @@
+.newGoods{
+    padding: 15px;
+    background-color: var(--third-bg-color);
+    width: calc(100% + 2rem);
+    height: 100%;
+    &__container{
+        background-color: var(--main-bg-color);
+        padding: 5px 5px 5px 5px;
+        overflow: hidden;
+        // width: 100%;
+    }
+    &__heading{
+        color: var(--fours-text-color);
+        font-size: 8vw;
+        font-weight: 900;
+        text-transform: uppercase;
+        margin: 1vw 3vw;
+        line-height: 1;
+    }
+
+    &__slider{
+        margin-bottom: 5vw;
+        width: 1300px;
+        display: flex;
+        gap: 20px;
+        height: 400px;
+    }
+    &__sliderItem{
+        height: 100%;
+    }
+    &__sliderImg{
+        max-width: 431.25px;
+        max-height: 589.87px;
+        width: auto;
+        height: 100%;
+    }
+}

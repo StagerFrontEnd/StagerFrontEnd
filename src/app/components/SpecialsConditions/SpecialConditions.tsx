@@ -43,9 +43,9 @@ const SpecialsConditions = () => {
                     className={`${styles.specialConditions__img} ${styles.specialConditions__img__tab}`} />
                 <div className={styles.specialConditions__svg1}>
                     <svg width="100%" height="100%">
-                        <line strokeWidth={strokeWidth} stroke="#FF89C2" x1="20%" y1="22%" x2="47%" y2="32%"></line>
-                        <line strokeWidth={strokeWidth} stroke="#FF89C2" x1="50%" y1="35%" x2="46%" y2="73.5%"></line>
-                        <line strokeWidth={strokeWidth} stroke="#FF89C2" x1="50%" y1="84%" x2="96%" y2="74%"></line>
+                        <line stroke-width={strokeWidth} stroke="#FF89C2" x2="47%" y1="20%" x1="12%" y2="28%"></line>
+                        <line stroke-width={strokeWidth} stroke="#FF89C2" y1="35%" x1="49%" x2="36%" y2="72%"></line>
+                        <line strokeWidth={strokeWidth} stroke="#FF89C2" x1="42%" y1="84%" x2="87%" y2="64%"></line>
                     </svg>
                 </div>
                 <div className={styles.specialConditions__svg2}>
@@ -53,6 +53,13 @@ const SpecialsConditions = () => {
                         <line strokeWidth={strokeWidth} stroke="#FF89C2" y1="8%" x1="52%" x2="92%" y2="14%"></line>
                         <line strokeWidth={strokeWidth} stroke="#FF89C2" y1="30%" x1="84%" y2="43.5%" x2="52.5%"></line>
                         <line strokeWidth={strokeWidth} stroke="#FF89C2" y2="74%" y1="48%" x1="51%" x2="83%"></line>
+                    </svg>
+                </div>
+                <div className={styles.specialConditions__svg3}>
+                    <svg width="100%" height="100%">
+                        <line stroke-width={strokeWidth} stroke="#FF89C2" x2="47%" y1="20%" x1="12%" y2="28%"></line>
+                        <line stroke-width={strokeWidth} stroke="#FF89C2" y1="35%" x1="49%" x2="36%" y2="72%"></line>
+                        <line strokeWidth={strokeWidth} stroke="#FF89C2" x1="42%" y1="84%" x2="87%" y2="64%"></line>
                     </svg>
                 </div>
                 <p className={`${styles.specialConditions__info} ${styles.specialConditions__info__first}`}>
