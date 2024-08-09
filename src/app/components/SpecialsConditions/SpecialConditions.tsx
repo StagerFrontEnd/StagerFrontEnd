@@ -50,9 +50,9 @@ const SpecialsConditions = () => {
                 </div>
                 <div className={styles.specialConditions__svg2}>
                     <svg width="100%" height="100%">
-                        <line stroke-width={strokeWidth} stroke="#FF89C2" y1="8%" x1="52%" x2="92%" y2="14%"></line>
-                        <line stroke-width={strokeWidth} stroke="#FF89C2" y1="30%" x1="84%" y2="43.5%" x2="52.5%"></line>
-                        <line stroke-width={strokeWidth} stroke="#FF89C2" y2="74%" y1="48%" x1="51%" x2="83%"></line>
+                        <line strokeWidth={strokeWidth} stroke="#FF89C2" y1="8%" x1="52%" x2="92%" y2="14%"></line>
+                        <line strokeWidth={strokeWidth} stroke="#FF89C2" y1="30%" x1="84%" y2="43.5%" x2="52.5%"></line>
+                        <line strokeWidth={strokeWidth} stroke="#FF89C2" y2="74%" y1="48%" x1="51%" x2="83%"></line>
                     </svg>
                 </div>
                 <p className={`${styles.specialConditions__info} ${styles.specialConditions__info__first}`}>
