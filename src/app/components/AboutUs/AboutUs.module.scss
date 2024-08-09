@@ -1,0 +1,184 @@
+.aboutUs {
+    &__heading {
+        color: #b5a0ef;
+        text-transform: uppercase;
+        font-size: 96px;
+        font-weight: bold;
+        letter-spacing: 0.2rem;
+        text-align: center;
+    }
+    &__box {
+        // display: grid;
+        // grid-template-columns: 2fr 1fr;
+        display: flex;
+        align-items: center;
+        font-size: 40px;
+        margin-top: 20px;
+        &:last-child {
+            flex-wrap: wrap;
+        }
+
+    }
+    &__textBox {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-right: 14px;
+    }
+    &__text {
+        text-align: justify;
+    }
+    &__Img {
+        height: auto;
+        min-width: 576px;
+    }
+    &__accordion {
+        width: 100%;
+        position: relative;
+        margin-bottom: 35px;
+    }
+    &__accordionHead {
+        color: var(--main-text-color);
+        background-color: var(--second-bg-color);
+        font-size: 40px;
+        font-weight: bold;
+        padding: 36px 66px;
+        border-radius: var(--border-radius);
+        position: relative;
+        z-index: 100;
+        box-shadow: 0 8px 30px -18px #000;
+    }
+    &__accordionArrow {
+        position: absolute;
+        top: 30px;
+        right: 36px;
+        &:hover{
+            cursor: pointer;
+            opacity: 0.7;
+        }
+        &:active {
+            scale: 1.3;
+        }
+    }
+    &__accordionArrowImg {
+        width: 76px;
+        height: 41px;
+    }
+    &__accordionText {
+        position: relative;
+        top: -10px;
+        font-size: 40px;
+        background-color: var(--second-bg-color);
+        padding: 50px 66px 52px;
+        text-align: justify;
+        overflow: hidden;
+        z-index: 40;
+    }
+}
+
+@media (max-width: 1150px) {
+    .aboutUs {
+        &__box {
+            font-size: 34px;
+        }
+        &__Img {
+            min-width: 460px;
+        }
+    }
+}
+
+@media (max-width: 950px) {
+    .aboutUs {
+        &__box {
+            font-size: 32px;
+        }
+        &__Img {
+            min-width: 360px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .aboutUs {
+        &__heading {
+            font-size: 48px;
+        }
+        &__box {
+            font-size: 23px;
+        }
+        &__Img {
+            min-width: 280px;
+        }
+        &__accordion {
+            margin-bottom: 20px;
+        }
+        &__accordionHead {
+            font-size: 24px;
+            padding: 11px 36px 28px;
+        }
+        &__accordionArrow {
+            top: 20px;
+        }
+        &__accordionArrowImg {
+            width: 35px;
+            height: 20px;
+        }
+        &__accordionText {
+            font-size: 24px;
+            padding: 28px 24px 33px;
+        }
+    }
+}
+
+@media (max-width: 550px) {
+    .aboutUs {
+        &__box {
+            font-size: 16px;
+        }
+        &__Img {
+            min-width: 240px;
+        }
+        &__accordionHead {
+            font-size: 16px;
+            padding-left: 20px;
+        }
+        &__accordionText {
+            padding: 24px 24px 20px;
+            font-size: 13px;
+        }
+    }
+}
+
+@media (max-width: 450px) {
+    .aboutUs {
+        &__box {
+            font-size: 13px;
+        }
+        &__Img {
+            min-width: 200px;
+        }
+    }
+}
+
+@media (max-width: 375px) {
+    .aboutUs {
+        &__heading {
+            font-size: 32px;
+        }
+        &__Img {
+            min-width: 168px;
+        }
+        &__accordion {
+            margin-bottom: 18px;
+        }
+        &__accordionHead {
+            font-size: 13px;
+            padding-left: 16px;
+        }
+        &__accordionArrowImg {
+            width: 21px;
+            height: 12px;
+        }
+    }
+}

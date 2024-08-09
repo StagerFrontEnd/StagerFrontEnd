@@ -1,0 +1,146 @@
+.footer {
+    transition: all 0.7s ease;
+    color: var(--main-text-color);
+    padding: 77px 5% 34px;
+    background-color: var(--main-color);
+    
+    &__wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+    }
+    &__section{
+        display: grid;
+        align-items: center;
+        justify-content: center;
+    }
+    &__copy {
+        margin-top: 95px;
+        text-align: center;
+    }
+}
+
+.social{
+    margin-top: 5px;
+    & ul {
+        list-style: none;
+        display: flex;
+        & li {
+            transition: all 0.7s ease;
+            margin-right: 18px;
+        }
+    }
+    &__heading{
+        transition: all 0.7s ease;
+        text-transform: uppercase;
+        font-size: 32px;
+    }
+    &__img{
+        transition: all 0.7s ease;
+        width: 70px;
+        height: 64px;
+    }
+}
+
+.contact {
+    font-size: 40px;
+    margin-top: 18px;
+    &__heading {
+        display: flex;
+        align-items: center;
+    }
+    &__image{
+        transition: all 0.7s ease;
+        width: 85px;
+        height: 72px;
+    }
+    &__title{
+        font-size: 36px;
+        text-transform: uppercase;
+    }
+    & ul {
+        list-style: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer {
+        padding: 26px 2.8% 9px;
+        &__copy {
+            margin-top: 52px;
+            font-size: 13px;
+        }
+    }
+    .social{
+        & ul {
+            & li {
+                margin-right: 18px;
+            }
+        }
+        &__heading{
+            font-size: 16px;
+        }
+        &__img{
+            width: 45px;
+            height: 39px;
+        }
+    }
+    .contact {
+        margin-top: 18px;
+        &__image{
+            width: 45px;
+            height: 39px;
+        }
+        &__title{
+            font-size: 16px;
+        }
+        & ul {
+            & li {
+                font-size: 20px;
+            }
+        }
+    }
+}
+
+@media (max-width: 375px) {
+    .footer {
+        padding: 10px 5% 4px;
+        &__copy {
+            margin-top: 24px;
+            font-size: 13px;
+        }
+    }
+    .social{
+        & ul {
+            & li {
+                margin-right: 9px;
+            }
+        }
+        &__heading{
+            font-size: 12px;
+        }
+        &__img{
+            width: 22px;
+            height: 19px;
+        }
+    }
+    .contact {
+        margin-top: 18px;
+        &__heading {
+            margin-top: 13px;
+        }
+        &__image{
+            width: 19px;
+            height: 15px;
+        }
+        &__title{
+            font-size: 14px;
+        }
+        & ul {
+            & li {
+                font-size: 14px;
+                padding: 5px 0;
+            }
+        }
+    }
+}

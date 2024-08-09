@@ -1,0 +1,24 @@
+.zodError {
+    position: relative;
+    top: -40px;
+    padding: 0 20px;
+    color: red;
+    font-size: 24px;
+    &::after{
+        content: "!!!";
+    }
+}
+
+@media (max-width: 768px) {
+    .zodError {
+        font-size: 16px;
+        top: -30px;
+    }
+}
+
+@media (max-width: 375px) {
+    .zodError {
+        font-size: 11px;
+        top: -12px;
+    }
+}

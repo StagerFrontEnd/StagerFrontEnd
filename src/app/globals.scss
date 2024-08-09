@@ -1,0 +1,48 @@
+:root {
+  --max-width: 1100px;
+  --border-radius: 12px;
+
+  --main-color: #ff89c2;
+  --main-bg-color: #fff3e9;
+  --second-bg-color: #ffcbda;
+  --main-text-color: #ffffff;
+  --second-text-color: #000000;
+  --third-text-color: #89B176;
+
+  --gb-first-icon-url: url("../../public/specials_conditions_firstIcon.png");
+  --gb-second-icon-url: url("../../public/specials_conditions_secondIcon.png");
+  --gb-third-icon-url: url("../../public/specials_conditions_thirdIcon.png");
+  --gb-fours-icon-url: url("../../public/specials_conditions_foursIcon.png");
+}
+
+// @font-face {
+//   font-family: 'Jost';
+//   src: url('./font/Jost-VariableFont_wght.ttf') format('truetype');
+//   font-weight: normal;
+//   font-style: normal;
+// }
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: var(--main-bg-color);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.d-flex{
+  display: flex;
+}
