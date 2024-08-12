@@ -33,7 +33,7 @@ const SpecialsConditions = () => {
 
     return (
         <div className={styles.specialConditions}>
-            <div className={styles.specialConditions__heading}>Special conditions for <br /> partners </div>
+            <h2 className={styles.specialConditions__heading}>Special conditions for <br /> partners </h2>
             <div className={styles.specialConditions__container}>
                 <Image src={MainImg1} alt="img 1"
                     className={`${styles.specialConditions__img} ${styles.specialConditions__img__topRight}`} />
@@ -43,23 +43,30 @@ const SpecialsConditions = () => {
                     className={`${styles.specialConditions__img} ${styles.specialConditions__img__tab}`} />
                 <div className={styles.specialConditions__svg1}>
                     <svg width="100%" height="100%">
-                        <line stroke-width={strokeWidth} stroke="#FF89C2" x2="47%" y1="20%" x1="12%" y2="28%"></line>
-                        <line stroke-width={strokeWidth} stroke="#FF89C2" y1="35%" x1="49%" x2="36%" y2="72%"></line>
-                        <line strokeWidth={strokeWidth} stroke="#FF89C2" x1="42%" y1="84%" x2="87%" y2="64%"></line>
+                        <line stroke-width={strokeWidth} stroke="#FF89C2" y1="10%" x1="4%" x2="57%" y2="26%"></line>
+                        <line stroke-width={strokeWidth} stroke="#FF89C2" x1="57%" y1="26%" y2="90%" x2="34%"></line>
+                        <line stroke-width={strokeWidth} stroke="#FF89C2" x1="34%" y1="90%" x2="96%" y2="72%"></line>
                     </svg>
                 </div>
                 <div className={styles.specialConditions__svg2}>
                     <svg width="100%" height="100%">
-                        <line strokeWidth={strokeWidth} stroke="#FF89C2" y1="8%" x1="52%" x2="92%" y2="14%"></line>
-                        <line strokeWidth={strokeWidth} stroke="#FF89C2" y1="30%" x1="84%" y2="43.5%" x2="52.5%"></line>
-                        <line strokeWidth={strokeWidth} stroke="#FF89C2" y2="74%" y1="48%" x1="51%" x2="83%"></line>
+                        <line stroke-width={strokeWidth} stroke="#FF89C2" y1="10%" x1="4%" x2="57%" y2="26%"></line>
+                        <line stroke-width={strokeWidth} stroke="#FF89C2" x1="57%" y1="26%" y2="90%" x2="34%"></line>
+                        <line stroke-width={strokeWidth} stroke="#FF89C2" x1="34%" y1="90%" x2="96%" y2="72%"></line>
                     </svg>
                 </div>
                 <div className={styles.specialConditions__svg3}>
                     <svg width="100%" height="100%">
-                        <line stroke-width={strokeWidth} stroke="#FF89C2" x2="47%" y1="20%" x1="12%" y2="28%"></line>
-                        <line stroke-width={strokeWidth} stroke="#FF89C2" y1="35%" x1="49%" x2="36%" y2="72%"></line>
-                        <line strokeWidth={strokeWidth} stroke="#FF89C2" x1="42%" y1="84%" x2="87%" y2="64%"></line>
+                        <line stroke-width={strokeWidth} stroke="#FF89C2" x1="35%" y1="8%" x2="92%" y2="30%"></line>
+                        <line stroke-width={strokeWidth} stroke="#FF89C2" x1="92%" y1="30%" x2="38%" y2="62%"></line>
+                        <line stroke-width={strokeWidth} stroke="#FF89C2" x1="38%" y1="62%" x2="90%" y2="86%"></line>
+                    </svg>
+                </div>
+                <div className={styles.specialConditions__svg4}>
+                    <svg width="100%" height="100%">
+                        <line stroke-width={strokeWidth} stroke="#FF89C2" x1="12%" y1="12%" x2="88%" y2="35%"></line>
+                        <line stroke-width={strokeWidth} stroke="#FF89C2" x1="88%" y1="35%" x2="12%" y2="66%"></line>
+                        <line stroke-width={strokeWidth} stroke="#FF89C2" x1="12%" y1="66%" x2="88%" y2="90%"></line>
                     </svg>
                 </div>
                 <p className={`${styles.specialConditions__info} ${styles.specialConditions__info__first}`}>
@@ -74,22 +81,15 @@ const SpecialsConditions = () => {
                 <p className={`${styles.specialConditions__info} ${styles.specialConditions__info__fours}`}>
                     We provide you with a catalog of our product positions
                 </p>
-                <Image
-                    src={SCIcon1}
-                    className={`${styles.specialConditions__icon} ${styles.specialConditions__icon__first}`}
-                    alt="sc icon 1" />
-                <Image
-                    src={SCIcon2}
-                    className={`${styles.specialConditions__icon} ${styles.specialConditions__icon__second}`}
-                    alt="sc icon 2" />
-                <Image
-                    src={SCIcon3}
-                    className={`${styles.specialConditions__icon} ${styles.specialConditions__icon__third}`}
-                    alt="sc icon 3" />
-                <Image
-                    src={SCIcon4}
-                    className={`${styles.specialConditions__icon} ${styles.specialConditions__icon__fours}`}
-                    alt="sc icon 4" />
+
+                <Image src={SCIcon1} alt="sc icon 1"
+                    className={`${styles.specialConditions__icon} ${styles.specialConditions__icon__first}`} />
+                <Image src={SCIcon2} alt="sc icon 2"
+                    className={`${styles.specialConditions__icon} ${styles.specialConditions__icon__second}`} />
+                <Image src={SCIcon3} alt="sc icon 3"
+                    className={`${styles.specialConditions__icon} ${styles.specialConditions__icon__third}`} />
+                <Image src={SCIcon4} alt="sc icon 4"
+                    className={`${styles.specialConditions__icon} ${styles.specialConditions__icon__fours}`} />
             </div>
         </div>
     )
