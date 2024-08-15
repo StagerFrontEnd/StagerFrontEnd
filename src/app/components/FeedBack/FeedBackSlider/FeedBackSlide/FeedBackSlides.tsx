@@ -15,45 +15,45 @@ const FeedBackSlide = (data: any) => {
         className: `${styles.feedBackSlider__wrapper}`,
         centerMode: true,
         infinite: true,
-        centerPadding: "600px",
+        centerPadding: "400px",
         slidesToShow: 1,
         swipe: true,
         arrows: false,
         pauseOnHover: false,
         speed: 1000, //швидкість зміни слайду
-        autoplay: true,
+        // autoplay: true,
         autoplaySpeed: 5000,// швидкість показу слайду
         responsive: [
             {
-                breakpoint: 1900,
-                settings: {
-                    centerPadding: "430px",
-                }
-            },
-            {
                 breakpoint: 1400,
                 settings: {
-                    centerPadding: "300px",
+                    centerPadding: "400px",
                 }
             },
             {
                 breakpoint: 970,
                 settings: {
-                    centerPadding: "200px",
+                    centerPadding: "500px",
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    centerPadding: "500px",
                 }
             },
             {
                 breakpoint: 670,
                 settings: {
-                    centerPadding: "100px",
+                    centerPadding: "560px",
                 }
             },
-            {
-                breakpoint: 480,
-                settings: {
-                    centerPadding: "60px",
-                }
-            },
+            // {
+            //     breakpoint: 480,
+            //     settings: {
+            //         centerPadding: "600px",
+            //     }
+            // },
         ]
     };
 

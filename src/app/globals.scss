@@ -54,11 +54,13 @@ a {
 .slick-slide {
   transition: scale  0.8s ease;
   scale: 0.8;
+  // width: 600px !important;
 }
 
 .slick-current {
   transition: scale  0.8s ease;
   scale: 1;
+
   & .feedBackSlider__text {
     font-weight: 700;
   }

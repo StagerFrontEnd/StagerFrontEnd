@@ -1,6 +1,5 @@
 .feedBack {
-    width: calc(100% + 2rem);
-
+    max-width: 1440px;
     &__heading {
         color: var(--main-color);
         font-size: 7vw;
