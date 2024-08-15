@@ -1,0 +1,32 @@
+[
+    {
+        "author": "John",
+        "data": "01.01.2001",
+        "rating": 2,
+        "comment": "Lorem Ipsum is simply dummy text of the printing and typesetpsum is simply dummy text of the printing and typesetting industry."
+    },
+    {
+        "author": "Leo",
+        "data": "21.12.1999",
+        "rating": 1,
+        "comment": "Lorem Ipsum is simply dummy text of the printing and typesetpsum is simply dummy text of the printing and typesetting industry."
+    },
+    {
+        "author": "Mike",
+        "data": "18.05.2009",
+        "rating": 5,
+        "comment": "Lorem Ipsum is simply dummy text of the printing and typesetpsum is simply dummy text of the printing and typesetting industry."
+    },
+    {
+        "author": "Raph",
+        "data": "01.06.1992",
+        "rating": 1,
+        "comment": "Lorem Ipsum is simply dummy text of the printing and typesetpsum is simply dummy text of the printing and typesetting industry."
+    },
+    {
+        "author": "Don",
+        "data": "30.05.2000",
+        "rating": 3,
+        "comment": "Lorem Ipsum is simply dummy text of the printing and typesetpsum is simply dummy text of the printing and typesetting industry."
+    }
+]

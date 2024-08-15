@@ -7,7 +7,7 @@
         background-color: var(--main-bg-color);
         padding: 5px 5px 5px 5px;
         overflow: hidden;
-        // width: 100%;
+        z-index: 1000;
     }
     &__heading{
         color: var(--fours-text-color);

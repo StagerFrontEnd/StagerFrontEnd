@@ -43,30 +43,30 @@ const SpecialsConditions = () => {
                     className={`${styles.specialConditions__img} ${styles.specialConditions__img__tab}`} />
                 <div className={styles.specialConditions__svg1}>
                     <svg width="100%" height="100%">
-                        <line stroke-width={strokeWidth} stroke="#FF89C2" y1="10%" x1="4%" x2="57%" y2="26%"></line>
-                        <line stroke-width={strokeWidth} stroke="#FF89C2" x1="57%" y1="26%" y2="90%" x2="34%"></line>
-                        <line stroke-width={strokeWidth} stroke="#FF89C2" x1="34%" y1="90%" x2="96%" y2="72%"></line>
+                        <line strokeWidth={strokeWidth} stroke="#FF89C2" y1="10%" x1="4%" x2="57%" y2="26%"></line>
+                        <line strokeWidth={strokeWidth} stroke="#FF89C2" x1="57%" y1="26%" y2="90%" x2="34%"></line>
+                        <line strokeWidth={strokeWidth} stroke="#FF89C2" x1="34%" y1="90%" x2="96%" y2="72%"></line>
                     </svg>
                 </div>
                 <div className={styles.specialConditions__svg2}>
                     <svg width="100%" height="100%">
-                        <line stroke-width={strokeWidth} stroke="#FF89C2" y1="10%" x1="4%" x2="57%" y2="26%"></line>
-                        <line stroke-width={strokeWidth} stroke="#FF89C2" x1="57%" y1="26%" y2="90%" x2="34%"></line>
-                        <line stroke-width={strokeWidth} stroke="#FF89C2" x1="34%" y1="90%" x2="96%" y2="72%"></line>
+                        <line strokeWidth={strokeWidth} stroke="#FF89C2" y1="10%" x1="4%" x2="57%" y2="26%"></line>
+                        <line strokeWidth={strokeWidth} stroke="#FF89C2" x1="57%" y1="26%" y2="90%" x2="34%"></line>
+                        <line strokeWidth={strokeWidth} stroke="#FF89C2" x1="34%" y1="90%" x2="96%" y2="72%"></line>
                     </svg>
                 </div>
                 <div className={styles.specialConditions__svg3}>
                     <svg width="100%" height="100%">
-                        <line stroke-width={strokeWidth} stroke="#FF89C2" x1="35%" y1="8%" x2="92%" y2="30%"></line>
-                        <line stroke-width={strokeWidth} stroke="#FF89C2" x1="92%" y1="30%" x2="38%" y2="62%"></line>
-                        <line stroke-width={strokeWidth} stroke="#FF89C2" x1="38%" y1="62%" x2="90%" y2="86%"></line>
+                        <line strokeWidth={strokeWidth} stroke="#FF89C2" x1="35%" y1="8%" x2="92%" y2="30%"></line>
+                        <line strokeWidth={strokeWidth} stroke="#FF89C2" x1="92%" y1="30%" x2="38%" y2="62%"></line>
+                        <line strokeWidth={strokeWidth} stroke="#FF89C2" x1="38%" y1="62%" x2="90%" y2="86%"></line>
                     </svg>
                 </div>
                 <div className={styles.specialConditions__svg4}>
                     <svg width="100%" height="100%">
-                        <line stroke-width={strokeWidth} stroke="#FF89C2" x1="12%" y1="12%" x2="88%" y2="35%"></line>
-                        <line stroke-width={strokeWidth} stroke="#FF89C2" x1="88%" y1="35%" x2="12%" y2="66%"></line>
-                        <line stroke-width={strokeWidth} stroke="#FF89C2" x1="12%" y1="66%" x2="88%" y2="90%"></line>
+                        <line strokeWidth={strokeWidth} stroke="#FF89C2" x1="12%" y1="12%" x2="88%" y2="35%"></line>
+                        <line strokeWidth={strokeWidth} stroke="#FF89C2" x1="88%" y1="35%" x2="12%" y2="66%"></line>
+                        <line strokeWidth={strokeWidth} stroke="#FF89C2" x1="12%" y1="66%" x2="88%" y2="90%"></line>
                     </svg>
                 </div>
                 <p className={`${styles.specialConditions__info} ${styles.specialConditions__info__first}`}>

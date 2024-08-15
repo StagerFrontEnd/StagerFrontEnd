@@ -6,6 +6,7 @@
   --main-bg-color: #fff3e9;
   --second-bg-color: #ffcbda;
   --third-bg-color: #f4c3bc;
+  --fours-bg-color: #ffffff;
   --main-text-color: #ffffff;
   --second-text-color: #000000;
   --third-text-color: #89B176;
@@ -43,4 +44,27 @@ body {
 a {
   color: inherit;
   text-decoration: none;
+}
+
+.slick-list{
+  padding-bottom: 24px !important;
+  padding-top: 2px !important;
+}
+
+.slick-slide {
+  transition: scale  0.8s ease;
+  scale: 0.8;
+}
+
+.slick-current {
+  transition: scale  0.8s ease;
+  scale: 1;
+  & .feedBackSlider__text {
+    font-weight: 700;
+  }
+}
+
+.slick-slide, .slick-slide > div {
+  display: flex;
+  justify-content: center;  
 }

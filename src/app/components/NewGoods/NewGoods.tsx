@@ -1,12 +1,11 @@
 "use client";
 import Image from "next/image";
-import { animate, motion, useMotionValue } from "framer-motion";
+import { motion } from "framer-motion";
 
 import styles from "./NewGoods.module.scss";
 import sliderImg1 from "@public/new_slider_rabbit.png";
 import sliderImg2 from "@public/new_slider_cat.png";
 import sliderImg3 from "@public/new_slider_capibara.png";
-import { useEffect } from "react";
 
 const sliderImages = [
     sliderImg1,

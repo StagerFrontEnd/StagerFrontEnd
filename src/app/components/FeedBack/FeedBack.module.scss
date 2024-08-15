@@ -1,0 +1,18 @@
+.feedBack {
+    width: calc(100% + 2rem);
+
+    &__heading {
+        color: var(--main-color);
+        font-size: 7vw;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin: 1vw 4vw;
+        line-height: 1;
+    }
+}
+
+@media (min-width: 1365px) {
+    .feedBack {
+        margin-bottom: 4vw;
+    }
+}
