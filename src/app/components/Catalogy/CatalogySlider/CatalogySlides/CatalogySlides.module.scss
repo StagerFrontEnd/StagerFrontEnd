@@ -1,10 +1,6 @@
-.catalogySlides{
+.catalogySlides {
   width: 100%;
-  &__slide{
-    opacity: 0.9;
-
-  }
-  &__img{
+  &__img {
     height: 523px;
     border-width: 4px;
     border-style: solid;
@@ -21,7 +17,7 @@
       width: auto;
     }
   }
-  &__info{
+  &__info {
     height: 192px;
     background-color: var(--main-text-color);
     width: 100%;
@@ -34,12 +30,12 @@
     display: grid;
     grid-template-columns: 2.5fr 1fr;
   }
-  &__infoBox{
-    &:first-child{
+  &__infoBox {
+    &:first-child {
       color: #524c4c;
       font-size: 48px;
     }
-    &:last-child{
+    &:last-child {
       display: flex;
       justify-content: flex-start;
       flex-direction: column;
@@ -48,7 +44,25 @@
       font-weight: 200;
     }
   }
-  &__rating{
+  &__rating {
     display: flex;
+  }
+  &__button {
+    display: block;
+    width: 730px;
+    height: 125px;
+    background-color: var(--main-color);
+    border-radius: 48px;
+    border: none;
+    font-size: 64px;
+    color: var(--main-text-color);
+    margin: 27px auto 200px;
+    transition: 0.2s;
+    &:hover{
+      cursor: pointer;
+      border: 2px solid var(--main-color);
+      background-color: inherit;
+      color: var(--main-color);
+    }
   }
 }

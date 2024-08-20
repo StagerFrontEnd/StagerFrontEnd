@@ -1,13 +1,5 @@
 import Image from "next/image";
-
-interface ButtonProps {
-    text?: string | undefined
-    onClick?: any | undefined
-    burgerImg?: string | undefined
-    alt?: string | undefined
-    className?: string
-    type: "button" | "submit"
-}
+import {ButtonProps} from "@/app/interfaces/interfases"
 
 const Button = ({ text, onClick, burgerImg, alt, className, type }: ButtonProps): JSX.Element => {
     return (

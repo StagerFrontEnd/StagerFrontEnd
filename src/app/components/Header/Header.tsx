@@ -38,7 +38,7 @@ const Header = () => {
                     burgerImg={burgerImg}
                     alt="burger menu"
                     onClick={openBurgerMenu}
-                    text=""
+                    type="button"
                 />
             </div>
                 <MobileMenu burgerMenu={burgerMenu} openBurgerMenu={openBurgerMenu}></MobileMenu>
