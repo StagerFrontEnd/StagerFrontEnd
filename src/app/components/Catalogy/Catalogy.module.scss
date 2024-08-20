@@ -1,0 +1,13 @@
+.catalogy {
+    max-width: 1440px;
+    width: 100%;
+    padding: 0 100px;
+    &__heading{
+        color: var(--fours-text-color);
+        font-size: 128px;
+        font-weight: 700;
+        text-transform: uppercase;
+        padding: 0 10px;
+        line-height: 1;
+    }
+}

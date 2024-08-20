@@ -1,17 +1,23 @@
 .feedBack {
     max-width: 1440px;
+    width: 100%;
+    margin: 0 -10px;
+    margin-top: 100px;
+    margin-bottom: 100px;
     &__heading {
         color: var(--main-color);
-        font-size: 7vw;
+        font-size: 128px;
         font-weight: 700;
         text-transform: uppercase;
-        margin: 1vw 4vw;
+        padding: 0 10px;
         line-height: 1;
     }
 }
 
-@media (min-width: 1365px) {
+@media (max-width: 768px) {
     .feedBack {
-        margin-bottom: 4vw;
+        &__heading {
+        font-size: 50px;
+        }
     }
 }

@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-interface ButtonPtops {
+interface ButtonProps {
     text?: string | undefined
     onClick?: any | undefined
     burgerImg?: string | undefined
@@ -9,7 +9,7 @@ interface ButtonPtops {
     type: "button" | "submit"
 }
 
-const Button = ({ text, onClick, burgerImg, alt, className, type }: ButtonPtops): JSX.Element => {
+const Button = ({ text, onClick, burgerImg, alt, className, type }: ButtonProps): JSX.Element => {
     return (
         <button
             type={type}

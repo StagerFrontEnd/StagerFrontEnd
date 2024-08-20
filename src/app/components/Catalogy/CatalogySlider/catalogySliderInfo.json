@@ -1,0 +1,26 @@
+[
+	{
+		"name": "constructor",
+		"rating": 4,
+		"imgSrc": "constructor.png",
+		"descr": "Magnetic constructors Plastic, magnet",
+		"id": 15,
+		"reviews": 13
+	},
+	{
+		"name": "photoroom",
+		"rating": 5,
+		"imgSrc": "photoroom.png",
+		"descr": "sfdsf sdf sdf dsf dsf dsf sdf t",
+		"id": 20,
+		"reviews": 4
+	},
+	{
+		"name": "photoroom2",
+		"rating": 5,
+		"imgSrc": "photoroom2.png",
+		"descr": "vsfa zmio sd mlohd nmnmn",
+		"id": 25,
+		"reviews": 3
+	}
+]

@@ -1,4 +1,5 @@
 .aboutUs {
+    padding: 0 100px;
     &__heading {
         color: #b5a0ef;
         text-transform: uppercase;
@@ -9,7 +10,7 @@
     }
     &__box {
         // display: grid;
-        // grid-template-columns: 2fr 1fr;
+        // grid-template-columns: 1fr 1fr;
         display: flex;
         align-items: center;
         font-size: 40px;
@@ -17,7 +18,6 @@
         &:last-child {
             flex-wrap: wrap;
         }
-
     }
     &__textBox {
         display: flex;
@@ -101,6 +101,8 @@
 
 @media (max-width: 768px) {
     .aboutUs {
+        width: 100%;
+        padding: 0;
         &__heading {
             font-size: 48px;
         }
