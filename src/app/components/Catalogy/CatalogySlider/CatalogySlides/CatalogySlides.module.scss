@@ -80,6 +80,40 @@
       color: var(--main-color);
     }
   }
+  &__controls{
+    position: relative;
+    text-align: center;
+  }
+  &__prevButton, &__nextButton{
+    width: 135px;
+    height: 135px;
+    border-radius: 50%;
+    border: none;
+    background-color: inherit;
+    position: absolute;
+    transition: scale 0.1s ease, opacity 0.2s ease;
+    &:hover{
+      cursor: pointer;
+      opacity: 0.6;
+    }
+    &:active{
+      scale: 1.2;
+    }
+  }
+  &__prevButton{
+    top: -100px;
+    left: 0;
+    &:after{
+      content: url("../../../../../../public/leftArrowSlider.png");
+    }
+  }
+  &__nextButton{
+    top: -100px;
+    right: 0;
+    &::after{
+      content: url("../../../../../../public/rightArrowSlider.png");
+    }
+  }
 }
 
 .ammount {

@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import Slider from "react-slick";
 import styles from "./CatalogySlides.module.scss";
 import ratigStar from "@public/rating_star.png";
@@ -9,15 +9,20 @@ import Button from "@/app/components/Button/Button";
 import { addToCart, addAmountProduct, delAmountProduct } from "@/app/utils/buttons";
 
 const CatalogySlides = (data: any) => {
+  const [currentProduct, setCurrentProduct] = useState(data.data[0][0]); // Початково зберігаємо перший товар
   const dataArr = data.data[0];
 
   const sliderRef = useRef<Slider | null>(null);
   const next = () => {
-    sliderRef.current?.slickNext(); // Використовуємо метод slickNext через current
+    sliderRef.current?.slickNext();
+    const nextSlideIndex = (data.data[0].indexOf(currentProduct) + 1) % data.data[0].length; // Знаходимо індекс наступного слайда
+    setCurrentProduct(data.data[0][nextSlideIndex]); // Оновлюємо стан з новим об'єктом товару
   };
 
   const previous = () => {
-    sliderRef.current?.slickPrev(); // Використовуємо метод slickPrev через current
+    sliderRef.current?.slickPrev();
+    const prevSlideIndex = (data.data[0].indexOf(currentProduct) - 1 + data.data[0].length) % data.data[0].length; // Знаходимо індекс попереднього слайда
+    setCurrentProduct(data.data[0][prevSlideIndex]); // Оновлюємо стан з новим об'єктом товару
   };
 
   const settings = {
@@ -31,7 +36,6 @@ const CatalogySlides = (data: any) => {
     easing: "ease-in-out",
     arrows: false
   };
-
 
   const addRating = (rating: number) => {
     let ratingJxs = [];
@@ -80,13 +84,11 @@ const CatalogySlides = (data: any) => {
           ))}
         </Slider>
       </div>
-      <Button className={styles.catalogySlides__button} onClick={addToCart} type="button" text="buy now" />
-      <div style={{ textAlign: "center" }}>
-        <button className="button" onClick={previous}>
-          Previous
+      <Button className={styles.catalogySlides__button} onClick={() => addToCart(currentProduct)} type="button" text="buy now" />
+      <div className={styles.catalogySlides__controls}>
+        <button className={styles.catalogySlides__prevButton} onClick={previous}>
         </button>
-        <button className="button" onClick={next}>
-          Next
+        <button className={styles.catalogySlides__nextButton} onClick={next}>
         </button>
       </div>
     </>
