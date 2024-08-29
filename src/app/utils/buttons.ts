@@ -1,9 +1,9 @@
-export const addAmountProduct = (currentAmount:number) => {
+export const addAmountProduct = (currentAmount: any) => {
 console.log("---")
 return currentAmount + 1;
 }
 
-export const delAmountProduct = (currentAmount:number) => {
+export const delAmountProduct = (currentAmount: any) => {
   console.log("+++")
 return currentAmount === 0 ? 0 : currentAmount -1;
 }

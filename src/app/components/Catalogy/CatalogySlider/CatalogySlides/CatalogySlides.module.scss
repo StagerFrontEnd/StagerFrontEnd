@@ -80,37 +80,40 @@
       color: var(--main-color);
     }
   }
-  &__controls{
+  &__controls {
     position: relative;
     text-align: center;
   }
-  &__prevButton, &__nextButton{
+  &__prevButton,
+  &__nextButton {
     width: 135px;
     height: 135px;
     border-radius: 50%;
     border: none;
     background-color: inherit;
     position: absolute;
-    transition: scale 0.1s ease, opacity 0.2s ease;
-    &:hover{
+    transition:
+      scale 0.1s ease,
+      opacity 0.2s ease;
+    &:hover {
       cursor: pointer;
       opacity: 0.6;
     }
-    &:active{
+    &:active {
       scale: 1.2;
     }
   }
-  &__prevButton{
+  &__prevButton {
     top: -100px;
     left: 0;
-    &:after{
+    &:after {
       content: url("../../../../../../public/leftArrowSlider.png");
     }
   }
-  &__nextButton{
+  &__nextButton {
     top: -100px;
     right: 0;
-    &::after{
+    &::after {
       content: url("../../../../../../public/rightArrowSlider.png");
     }
   }
@@ -120,15 +123,23 @@
   display: flex;
   justify-content: end;
   align-items: center;
-  &__delButton, &__addButton {
+  &__delButton,
+  &__addButton {
     width: 32px;
     height: 32px;
     border-radius: 50%;
     border: 2px solid #000;
+    font-size: 20px;
+    &:hover {
+      cursor: pointer;
+    }
+    &:active {
+      scale: 1.1;
+    }
   }
   &__delButton {
-margin-right: 5px;
-  } 
+    margin-right: 5px;
+  }
   &__addButton {
     margin-left: 5px;
   }

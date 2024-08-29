@@ -65,7 +65,7 @@ const CatalogySlides = (data: any) => {
                 <div className={styles.catalogySlides__infoBox}>
                   <span className={styles.catalogySlides__title}>{slide.name}</span>
                   <span className={styles.catalogySlides__descr}>{slide.descr}</span>
-                  </div>
+                </div>
                 <div className={styles.catalogySlides__infoBox}>
                   <div className={styles.catalogySlides__rating}>
                     {addRating(slide.rating)}
@@ -74,9 +74,9 @@ const CatalogySlides = (data: any) => {
                     {slide.price}
                   </span>
                   <div className={styles.ammount}>
-                    <Button type="button" text="-" onClick={addAmountProduct} className={styles.ammount__delButton}/>
-                    <span className={styles.ammount__number}>0</span>
-                    <Button type="button" text="+" onClick={delAmountProduct} className={styles.ammount__addButton}/>
+                    <Button type="button" text="-" onClick={() => addAmountProduct(currentProduct)} className={styles.ammount__delButton} />
+                    <span className={styles.ammount__number}>3</span>
+                    <Button type="button" text="+" onClick={() => delAmountProduct(currentProduct)} className={styles.ammount__addButton} />
                   </div>
                 </div>
               </div>
