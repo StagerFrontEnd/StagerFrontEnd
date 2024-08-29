@@ -44,8 +44,23 @@
       font-weight: 200;
     }
   }
+  &__title {
+    font-size: 48px;
+    font-weight: bold;
+    display: block;
+  }
+  &__descr {
+    color: #949494;
+  }
+  &__price {
+    font-size: 48px;
+    font-weight: bold;
+    text-align: right;
+    line-height: 1;
+  }
   &__rating {
     display: flex;
+    justify-content: end;
   }
   &__button {
     display: block;
@@ -58,11 +73,32 @@
     color: var(--main-text-color);
     margin: 27px auto 200px;
     transition: 0.2s;
-    &:hover{
+    &:hover {
       cursor: pointer;
       border: 2px solid var(--main-color);
       background-color: inherit;
       color: var(--main-color);
     }
+  }
+}
+
+.ammount {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  &__delButton, &__addButton {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 2px solid #000;
+  }
+  &__delButton {
+margin-right: 5px;
+  } 
+  &__addButton {
+    margin-left: 5px;
+  }
+  &__number {
+    font-size: 40px;
   }
 }

@@ -1,25 +1,28 @@
 [
 	{
-		"name": "constructor",
+		"name": "Magnetic constructors",
 		"rating": 4,
 		"imgSrc": "constructor.png",
-		"descr": "Magnetic constructors Plastic, magnet",
+		"descr": "Plastic, magnet",
+		"price": "15 $",
 		"id": 15,
 		"reviews": 13
 	},
 	{
-		"name": "photoroom",
+		"name": "sfdsf sdf sdf",
 		"rating": 5,
 		"imgSrc": "photoroom.png",
-		"descr": "sfdsf sdf sdf dsf dsf dsf sdf t",
+		"descr": " dsf dsf dsf sdf t",
+		"price": "10 $",
 		"id": 20,
 		"reviews": 4
 	},
 	{
-		"name": "photoroom2",
+		"name": "vsfa zmio",
 		"rating": 5,
 		"imgSrc": "photoroom2.png",
-		"descr": "vsfa zmio sd mlohd nmnmn",
+		"descr": " sd mlohd nmnmn",
+		"price": "18 $",
 		"id": 25,
 		"reviews": 3
 	}

@@ -6,7 +6,7 @@ import styles from "./CatalogySlides.module.scss";
 import ratigStar from "@public/rating_star.png";
 import ratigStarOK from "@public/rating_star_ok.png";
 import Button from "@/app/components/Button/Button";
-import { addToCart } from "@/app/utils/buttons";
+import { addToCart, addAmountProduct, delAmountProduct } from "@/app/utils/buttons";
 
 const CatalogySlides = (data: any) => {
   const dataArr = data.data[0];
@@ -58,13 +58,21 @@ const CatalogySlides = (data: any) => {
                 <Image src={`/products/${slide.imgSrc}`} alt={slide.name} width={200} height={100} />
               </div>
               <div className={styles.catalogySlides__info}>
-                <div className={styles.catalogySlides__infoBox}>{slide.descr}</div>
+                <div className={styles.catalogySlides__infoBox}>
+                  <span className={styles.catalogySlides__title}>{slide.name}</span>
+                  <span className={styles.catalogySlides__descr}>{slide.descr}</span>
+                  </div>
                 <div className={styles.catalogySlides__infoBox}>
                   <div className={styles.catalogySlides__rating}>
                     {addRating(slide.rating)}
                   </div>
-                  <div className={styles.catalogySlides__review}>
-                    {`(${slide.reviews})Reviews`}
+                  <span className={styles.catalogySlides__price}>
+                    {slide.price}
+                  </span>
+                  <div className={styles.ammount}>
+                    <Button type="button" text="-" onClick={addAmountProduct} className={styles.ammount__delButton}/>
+                    <span className={styles.ammount__number}>0</span>
+                    <Button type="button" text="+" onClick={delAmountProduct} className={styles.ammount__addButton}/>
                   </div>
                 </div>
               </div>
